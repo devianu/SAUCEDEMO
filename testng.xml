@@ -4,5 +4,10 @@
     <classes>
       <class name="TEST.LoginTest"/>
     </classes>
+    <test name="APITests">
+<classes>
+<class name="USERAPI.UserAPITest"/>
+</classes>
+</test>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

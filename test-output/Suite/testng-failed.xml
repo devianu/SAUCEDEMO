@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="APITests(failed)">
     <classes>
-      <class name="TEST.LoginTest">
+      <class name="USERAPI.UserAPITest">
         <methods>
-          <include name="loginTest"/>
+          <include name="getUser"/>
+          <include name="updateUser"/>
         </methods>
-      </class> <!-- TEST.LoginTest -->
+      </class> <!-- USERAPI.UserAPITest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- APITests(failed) -->
 </suite> <!-- Failed suite [Suite] -->
