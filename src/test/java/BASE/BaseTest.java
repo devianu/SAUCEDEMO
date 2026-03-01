@@ -3,6 +3,9 @@ package BASE;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
+
+import PAGES.LoginPage;
+
 import org.testng.annotations.AfterMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import java.time.Duration;
@@ -21,6 +24,8 @@ public class BaseTest {
         driver.manage().window().maximize();
 
         driver.get("https://www.saucedemo.com/");
+        LoginPage login = new LoginPage(driver);
+        login.login("standard_user", "secret_sauce");
     }
 
     @AfterMethod

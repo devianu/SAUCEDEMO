@@ -14,7 +14,7 @@ public class LoginPage {
     public LoginPage(WebDriver driver)
     {
         this.driver = driver;
-    }
+   }
 
     public void login(String user, String pass)
     {

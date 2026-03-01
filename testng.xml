@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="TEST.LoginTest"/>
-    </classes>
-    <test name="APITests">
-<classes>
-<class name="USERAPI.UserAPITest"/>
-</classes>
-</test>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+
+    <test name="UI Tests">
+
+        <classes>
+            <class name="TEST.LoginTest"/>
+            <class name="TEST.AddToCartTest"/>
+        </classes>
+
+    </test>
+
+</suite>
