@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Suite">
+<suite name="AutomationSuite">
 
-    <test name="UI Tests">
+<test name="AllTests">
 
-        <classes>
-            <class name="TEST.LoginTest"/>
-            <class name="TEST.AddToCartTest"/>
-        </classes>
+<packages>
+<package name="TEST"/>
+</packages>
 
-    </test>
+</test>
 
 </suite>

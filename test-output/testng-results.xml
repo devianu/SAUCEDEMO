@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-01T13:24:39 IST" name="Suite" finished-at="2026-03-01T13:24:45 IST" duration-ms="5288">
+  <suite started-at="2026-03-01T15:26:23 IST" name="AutomationSuite" finished-at="2026-03-01T15:26:30 IST" duration-ms="7608">
     <groups>
     </groups>
-    <test started-at="2026-03-01T13:24:39 IST" name="UI Tests" finished-at="2026-03-01T13:24:45 IST" duration-ms="5288">
+    <test started-at="2026-03-01T15:26:23 IST" name="AllTests" finished-at="2026-03-01T15:26:30 IST" duration-ms="7608">
       <class name="TEST.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.LoginTest@dd05255]" started-at="2026-03-01T13:24:39 IST" name="setup" finished-at="2026-03-01T13:24:42 IST" duration-ms="2806" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.LoginTest@c0c2f8d]" started-at="2026-03-01T15:26:28 IST" name="setup" finished-at="2026-03-01T15:26:30 IST" duration-ms="1795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:TEST.LoginTest@dd05255]" started-at="2026-03-01T13:24:42 IST" name="loginTest" finished-at="2026-03-01T13:24:42 IST" duration-ms="15" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:TEST.LoginTest@c0c2f8d]" started-at="2026-03-01T15:26:30 IST" name="loginTest" finished-at="2026-03-01T15:26:30 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TEST.LoginTest@dd05255]" started-at="2026-03-01T13:24:42 IST" name="teardown" finished-at="2026-03-01T13:24:43 IST" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TEST.LoginTest@c0c2f8d]" started-at="2026-03-01T15:26:30 IST" name="teardown" finished-at="2026-03-01T15:26:30 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TEST.LoginTest -->
-      <class name="TEST.AddToCartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.AddToCartTest@1ff4931d]" started-at="2026-03-01T13:24:43 IST" name="setup" finished-at="2026-03-01T13:24:44 IST" duration-ms="1794" status="PASS">
+      <class name="TEST.droptest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.droptest@4988d8b8]" started-at="2026-03-01T15:26:26 IST" name="setup" finished-at="2026-03-01T15:26:28 IST" duration-ms="1749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddToCart()[pri:0, instance:TEST.AddToCartTest@1ff4931d]" started-at="2026-03-01T13:24:44 IST" name="AddToCart" finished-at="2026-03-01T13:24:45 IST" duration-ms="209" status="PASS">
+        <test-method signature="seldrop()[pri:0, instance:TEST.droptest@4988d8b8]" started-at="2026-03-01T15:26:28 IST" name="seldrop" finished-at="2026-03-01T15:26:28 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seldrop -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TEST.droptest@4988d8b8]" started-at="2026-03-01T15:26:28 IST" name="teardown" finished-at="2026-03-01T15:26:28 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TEST.droptest -->
+      <class name="TEST.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.AddToCartTest@79079097]" started-at="2026-03-01T15:26:23 IST" name="setup" finished-at="2026-03-01T15:26:25 IST" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddToCart()[pri:0, instance:TEST.AddToCartTest@79079097]" started-at="2026-03-01T15:26:25 IST" name="AddToCart" finished-at="2026-03-01T15:26:26 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TEST.AddToCartTest@1ff4931d]" started-at="2026-03-01T13:24:45 IST" name="teardown" finished-at="2026-03-01T13:24:45 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TEST.AddToCartTest@79079097]" started-at="2026-03-01T15:26:26 IST" name="teardown" finished-at="2026-03-01T15:26:26 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TEST.AddToCartTest -->
-    </test> <!-- UI Tests -->
-  </suite> <!-- Suite -->
+    </test> <!-- AllTests -->
+  </suite> <!-- AutomationSuite -->
 </testng-results>
