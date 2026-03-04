@@ -9,7 +9,7 @@ public class droptest extends BaseTest{
 	@Test
 	public void seldrop() {
 		Dropdown drop1=new Dropdown(driver);
-				drop1.clickdrop();
+				drop1.selectLowToHigh();
 		
 	}
 	

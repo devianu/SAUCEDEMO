@@ -1,2 +1,4 @@
-PAGES\ProductsPage.class
+PAGES\Dropdown.class
+PAGES\AddToCart.class
 PAGES\LoginPage.class
+PAGES\ProductsPage.class

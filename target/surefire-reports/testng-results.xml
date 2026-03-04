@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-27T23:19:59 IST" name="Surefire suite" finished-at="2026-02-27T23:20:02 IST" duration-ms="3396">
+  <suite started-at="2026-03-04T23:33:43 IST" name="Surefire suite" finished-at="2026-03-04T23:33:54 IST" duration-ms="10989">
     <groups>
     </groups>
-    <test started-at="2026-02-27T23:19:59 IST" name="Surefire test" finished-at="2026-02-27T23:20:02 IST" duration-ms="3396">
+    <test started-at="2026-03-04T23:33:43 IST" name="Surefire test" finished-at="2026-03-04T23:33:54 IST" duration-ms="10989">
+      <class name="USERAPI.UserAPITest">
+        <test-method signature="createUser()[pri:0, instance:USERAPI.UserAPITest@e50a6f6]" started-at="2026-03-04T23:33:50 IST" name="createUser" finished-at="2026-03-04T23:33:54 IST" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getUser()[pri:0, instance:USERAPI.UserAPITest@e50a6f6]" started-at="2026-03-04T23:33:54 IST" name="getUser" finished-at="2026-03-04T23:33:54 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="updateUser()[pri:0, instance:USERAPI.UserAPITest@e50a6f6]" started-at="2026-03-04T23:33:54 IST" name="updateUser" finished-at="2026-03-04T23:33:54 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- USERAPI.UserAPITest -->
       <class name="TEST.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.LoginTest@5db45159]" started-at="2026-02-27T23:19:59 IST" name="setup" finished-at="2026-02-27T23:20:02 IST" duration-ms="2790" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.LoginTest@4034c28c]" started-at="2026-03-04T23:33:49 IST" name="setup" finished-at="2026-03-04T23:33:50 IST" duration-ms="1901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:TEST.LoginTest@5db45159]" started-at="2026-02-27T23:20:02 IST" name="loginTest" finished-at="2026-02-27T23:20:02 IST" duration-ms="327" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:TEST.LoginTest@4034c28c]" started-at="2026-03-04T23:33:50 IST" name="loginTest" finished-at="2026-03-04T23:33:50 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TEST.LoginTest@5db45159]" started-at="2026-02-27T23:20:02 IST" name="teardown" finished-at="2026-02-27T23:20:02 IST" duration-ms="247" status="PASS">
+      </class> <!-- TEST.LoginTest -->
+      <class name="TEST.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TEST.AddToCartTest@2d9d4f9d]" started-at="2026-03-04T23:33:43 IST" name="setup" finished-at="2026-03-04T23:33:48 IST" duration-ms="4749" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- TEST.LoginTest -->
+        </test-method> <!-- setup -->
+        <test-method signature="AddToCart()[pri:0, instance:TEST.AddToCartTest@2d9d4f9d]" started-at="2026-03-04T23:33:48 IST" name="AddToCart" finished-at="2026-03-04T23:33:49 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+      </class> <!-- TEST.AddToCartTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

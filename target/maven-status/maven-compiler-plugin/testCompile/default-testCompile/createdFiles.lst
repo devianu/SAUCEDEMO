@@ -1,2 +1,5 @@
 BASE\BaseTest.class
 TEST\LoginTest.class
+USERAPI\UserAPITest.class
+TEST\AddToCartTest.class
+TEST\droptest.class

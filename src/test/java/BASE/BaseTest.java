@@ -28,10 +28,10 @@ public class BaseTest {
         login.login("standard_user", "secret_sauce");
     }
 
-    @AfterMethod
-    public void teardown()
-    {
-        if(driver != null)
-        driver.quit();
-    }
+//    @AfterMethod
+//    public void teardown()
+//    {
+//        if(driver != null)
+//        driver.quit();
+//    }
 }
